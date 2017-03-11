@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slideout/1.0.1/slideout.min.js"></script>
+  <link type="text/css" rel="stylesheet" href="https://mango.github.io/slideout/styles/fonts.css">
+  <!--
+  <link type="text/css" rel="stylesheet" href="https://mango.github.io/slideout/styles/styles.css">
+-->
+  <link type="text/css" rel="stylesheet" href="slideout.css">
+
+</head>
+
+<body>
+<div class="weatherbox-navbar">
+  <nav id="menu" class="menu">
+    <section class="menu-section">
+      <h3 class="menu-section-title">Docs</h3>
+      <ul class="menu-section-list">
+        <li><a href="https://github.com/mango/slideout#installation" target="_blank">Installation</a></li>
+        <li><a href="https://github.com/mango/slideout#usage" target="_blank">Usage</a></li>
+        <li><a href="https://github.com/mango/slideout#api" target="_blank">API</a></li>
+        <li><a href="https://github.com/mango/slideout#npm-scripts" target="_blank">npm-scripts</a></li>
+      </ul>
+    </section>
+  </nav>
+
+  <main id="main" class="panel">
+    <header class="panel-header">
+      <button class="btn-hamburger js-slideout-toggle">
+        <span class="tooltip">Open slideout</span>
+      </button>
+    </header>
+  </main>
+</div>
+<script>
+
+  var slideout = new Slideout({
+    'panel': document.getElementById('main'),
+    'menu': document.getElementById('menu'),
+    'padding': 256,
+    'tolerance': 70
+  });
+
+  document.querySelector('.js-slideout-toggle').addEventListener('click', function () {
+    slideout.toggle();
+  });
+</script>
+</body>
+</html>
