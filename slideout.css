@@ -14,7 +14,7 @@ html,
   background-color: #fff;
 }
 
-.menu {
+.menu-slideout {
   background-color: #1D1F20;
   background-image: linear-gradient(145deg, #1D1F20, #404348);
 }
@@ -23,11 +23,11 @@ a {
   text-decoration: none;
 }
 
-.menu a {
+.menu-slideout a {
   color: #fff;
 }
 
-.menu a:hover {
+.menu-slideout a:hover {
   text-decoration: underline;
 }
 

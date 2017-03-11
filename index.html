@@ -14,7 +14,7 @@
 
 <body>
 <div class="weatherbox-navbar">
-  <nav id="menu" class="menu">
+  <nav id="weatherbox-slideout" class="menu-slideout">
     <section class="menu-section">
       <h3 class="menu-section-title">Docs</h3>
       <ul class="menu-section-list">
@@ -38,7 +38,7 @@
 
   var slideout = new Slideout({
     'panel': document.getElementById('main'),
-    'menu': document.getElementById('menu'),
+    'menu': document.getElementById('weatherbox-slideout'),
     'padding': 256,
     'tolerance': 70
   });
