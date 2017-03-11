@@ -91,7 +91,11 @@ html,
   font-size: 20px;
   line-height: 19px;
   display: inline-block;
+
+  /* Add in for tag
   background: #4B5 url('happy.png') no-repeat 135px 15px;
+  */
+
   color: #fff;
   padding: 10px 45px 10px 20px;
   border-radius: 4px;
@@ -100,7 +104,11 @@ html,
 }
 
 .tooltip:before {
+
+  /* Add in for arrow tag <
   content: '';
+  */
+
   display:inline-block;
   border-top: 6px solid transparent;
   border-bottom: 6px solid transparent;
