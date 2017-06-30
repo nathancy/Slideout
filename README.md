@@ -5,11 +5,11 @@ Small plugin for navigation bar aesthetics
 Closed
 ```
 
-![](doc/slideout2.PNG)
+![](doc/slideout1.PNG)
 
 ```
 Open
 ```
 
-![](doc/slideout1.PNG)
+![](doc/slideout2.PNG)
 
